@@ -14,7 +14,7 @@
     symfony_project_cache_command: cache:warmup
     symfony_project_manage_composer: true
     symfony_project_composer_opts: '--no-dev --optimize-autoloader --no-interaction'
-    symfony_project_release= 'date 2016/10/16121436'
+    symfony_project_release: 'date 2016/10/16121436'
 
   roles:
     - servergrove.symfony2
