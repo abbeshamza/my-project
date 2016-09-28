@@ -1,0 +1,11 @@
+---
+- hosts: local
+  vars:
+    symfony2_project_name: my-project
+    symfony2_project_root: /home/test/public_html/ye
+    symfony2_project_repo: git@github.com:yefdt/my-project.git
+    ansible_ssh_user: root
+ 
+  roles:
+    - servergrove.symfony2
+ 
